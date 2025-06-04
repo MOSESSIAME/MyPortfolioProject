@@ -151,3 +151,29 @@ button:hover {
   background-color: #004182;
   transform: scale(1.1);
 }
+.download-cv {
+  margin-top: 20px;
+}
+
+.download-cv a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: #0a66c2;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-cv a:hover {
+  background-color: #004182;
+  transform: scale(1.05);
+}
+
+.download-cv i {
+  font-size: 20px;
+}
