@@ -177,3 +177,66 @@ button:hover {
 .download-cv i {
   font-size: 20px;
 }
+
+
+/* Certifications section */
+.cert-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.cert-list li {
+  margin-bottom: 1rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.cert-list li::before {
+  content: "🎓";
+  position: absolute;
+  left: 0;
+}
+
+/* Education section */
+
+.education-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.education-list li {
+  margin-bottom: 1.5rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.education-list li::before {
+  content: "🎓";
+  position: absolute;
+  left: 0;
+}
+
+
+/* Experience section */
+.experience-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.experience-list > li {
+  margin-bottom: 2rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.experience-list > li::before {
+  content: "💼";
+  position: absolute;
+  left: 0;
+}
+
+.experience-list ul {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
