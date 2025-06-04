@@ -1,6 +1,7 @@
 /* Apply global styles */
 body {
   font-family: 'Poppins', sans-serif;
+  background: url('https://www.transparenttextures.com/patterns/white-wall.png'); /* free subtle texture */
   background-color: #ffffff;
   color: #222;
   line-height: 1.6;
@@ -8,6 +9,7 @@ body {
   padding: 0;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 
 /* Header styling */
 header {
@@ -134,7 +136,7 @@ button:hover {
 }
 
 .social-icons a {
-  background-color: #0a66c2;
+  background-color: #28a745;
   color: white;
   font-size: 24px;
   width: 48px;
@@ -148,10 +150,11 @@ button:hover {
 }
 
 .social-icons a:hover {
-  background-color: #004182;
+  background-color: #28a745;
   transform: scale(1.1);
 }
 .download-cv {
+
   margin-top: 20px;
 }
 
@@ -160,7 +163,7 @@ button:hover {
   align-items: center;
   gap: 8px;
   padding: 10px 20px;
-  background-color: #0a66c2;
+  background-color: #28a745;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -170,13 +173,14 @@ button:hover {
 }
 
 .download-cv a:hover {
-  background-color: #004182;
+  background-color: #28a745;
   transform: scale(1.05);
 }
 
 .download-cv i {
   font-size: 20px;
 }
+
 
 
 /* Certifications section */
