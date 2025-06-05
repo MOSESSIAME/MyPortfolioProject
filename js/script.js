@@ -41,9 +41,9 @@ fetch(`https://api.github.com/users/${githubUsername}/repos`)
   })
   .catch(error => console.error('Error fetching repositories:', error));
 
+// function toggleMenu() {
+  // const navLinks = document.getElementById("navLinks");
+  // navLinks.classList.toggle("active");
+// }
 
-  function toggleMenu() {
-  const navLinks = document.getElementById("navLinks");
-  navLinks.classList.toggle("active");
-}
 
