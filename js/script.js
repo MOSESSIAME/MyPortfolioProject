@@ -21,7 +21,7 @@ fetch(`https://api.github.com/users/${githubUsername}/repos`)
       card.href = repo.html_url;
       card.target = '_blank';
       card.className = 'project-card';
-      card.style.backgroundImage = `url('https://source.unsplash.com/400x300/?technology,code')`; // Random tech image
+      //card.style.backgroundImage = `url('https://source.unsplash.com/400x300/?technology,code')`; // Random tech image
 
       // Create overlay
       const overlay = document.createElement('div');
@@ -40,3 +40,10 @@ fetch(`https://api.github.com/users/${githubUsername}/repos`)
     });
   })
   .catch(error => console.error('Error fetching repositories:', error));
+
+
+  function toggleMenu() {
+  const navLinks = document.getElementById("navLinks");
+  navLinks.classList.toggle("active");
+}
+
