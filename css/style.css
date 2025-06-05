@@ -245,3 +245,54 @@ button:hover {
   padding-left: 1.5rem;
   list-style-type: disc;
 }
+
+
+
+/* Project section */
+
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.project-card {
+  position: relative;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.project-card .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: background-color 0.3s ease;
+}
+
+.project-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.4rem;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  margin: 0;
+}
