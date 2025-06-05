@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: larger
 }
 
 
@@ -79,7 +80,7 @@ button:hover {
 }
 
 .dark-mode h2 {
-  border-bottom-color: #f1f1f1;
+  border-bottom-color:  #1e1e1e;
 }
 /* Navigation Bar */
 .navbar {
@@ -164,7 +165,7 @@ button:hover {
   gap: 8px;
   padding: 10px 20px;
   background-color: #28a745;
-  color: #fff;
+  color: #ffffff98;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
